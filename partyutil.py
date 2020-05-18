@@ -28,7 +28,10 @@ def most_and_least_common_type(treats):
     first in alphabetical order should win.
     
 
-    >>> most_and_least_common_type([{'type': 'dessert'}, {'type': 'dessert'}, {'type': 'appetizer'}, {'type': 'dessert'}, {'type': 'appetizer'}, {'type': 'drink'}])
+    >>> most_and_least_common_type([{'type': 'dessert'}, \
+        {'type': 'dessert'}, {'type': 'appetizer'}, \
+        {'type': 'dessert'}, {'type': 'appetizer'}, \
+        {'type': 'drink'}])
     ('dessert', 'drink')
 
     >>> most_and_least_common_type([])
@@ -37,7 +40,9 @@ def most_and_least_common_type(treats):
     >>> most_and_least_common_type([{'type': 'dessert'}])
     ('dessert', 'dessert')
 
-    >>> most_and_least_common_type([{'type': 'dessert'}, {'type': 'dessert'}, {'type': 'appetizer'}, {'type': 'appetizer'}])
+    >>> most_and_least_common_type([{'type': 'dessert'}, \
+        {'type': 'dessert'}, {'type': 'appetizer'}, \
+        {'type': 'appetizer'}])
     ('appetizer', 'appetizer')
 
     """
